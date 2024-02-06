@@ -174,12 +174,12 @@ DEF GT  = 4
 DEF GEQ = 5
 
 # numeric types
-INT    = numpy.int
+INT    = int
 FLOAT  = numpy.float
 DOUBLE = numpy.double
 LONG   = numpy.long
 
-ctypedef numpy.int_t    INT_t
+ctypedef int_t    INT_t
 ctypedef numpy.float_t  FLOAT_t
 ctypedef numpy.double_t DOUBLE_t
 ctypedef numpy.long_t   LONG_t
